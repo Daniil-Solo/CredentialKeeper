@@ -1,7 +1,7 @@
 from src.applications_layer.users_usecase import IUserService
 from src.domains_layer.sessions import Session
 from src.domains_layer.shared import UniqueId
-from src.database.repositories.abstract_repository import AbstractRepository
+from src.services_layer.abstract_repository import AbstractRepository
 from src.domains_layer.users import User
 
 
